@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E351B8802ACAF29200592D38 /* MBDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351B87F2ACAF29200592D38 /* MBDataManager.swift */; };
+		E351B8822ACAF59300592D38 /* MBSignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351B8812ACAF59300592D38 /* MBSignupVM.swift */; };
 		E3D66D252AC9A50900C290A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D242AC9A50900C290A6 /* AppDelegate.swift */; };
 		E3D66D272AC9A50900C290A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D262AC9A50900C290A6 /* SceneDelegate.swift */; };
-		E3D66D292AC9A50900C290A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D282AC9A50900C290A6 /* ViewController.swift */; };
-		E3D66D2C2AC9A50900C290A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D66D2A2AC9A50900C290A6 /* Main.storyboard */; };
+		E3D66D292AC9A50900C290A6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D282AC9A50900C290A6 /* RootViewController.swift */; };
 		E3D66D2E2AC9A50A00C290A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D66D2D2AC9A50A00C290A6 /* Assets.xcassets */; };
 		E3D66D312AC9A50A00C290A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D66D2F2AC9A50A00C290A6 /* LaunchScreen.storyboard */; };
 		E3D66D412AC9AED100C290A6 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D402AC9AED100C290A6 /* UIFont+Extension.swift */; };
@@ -31,14 +32,16 @@
 		E3D66D692ACAC5AB00C290A6 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = E3D66D682ACAC5AB00C290A6 /* countries.json */; };
 		E3D66D6B2ACAC64500C290A6 /* MBContryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D6A2ACAC64500C290A6 /* MBContryDataModel.swift */; };
 		E3D66D6D2ACAD65E00C290A6 /* MBContryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D6C2ACAD65E00C290A6 /* MBContryLoader.swift */; };
+		E3D66D6F2ACAE25700C290A6 /* MBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D6E2ACAE25700C290A6 /* MBBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E351B87F2ACAF29200592D38 /* MBDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDataManager.swift; sourceTree = "<group>"; };
+		E351B8812ACAF59300592D38 /* MBSignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSignupVM.swift; sourceTree = "<group>"; };
 		E3D66D212AC9A50900C290A6 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D66D242AC9A50900C290A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3D66D262AC9A50900C290A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3D66D282AC9A50900C290A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3D66D2B2AC9A50900C290A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3D66D282AC9A50900C290A6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E3D66D2D2AC9A50A00C290A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D66D302AC9A50A00C290A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D66D322AC9A50A00C290A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 		E3D66D682ACAC5AB00C290A6 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		E3D66D6A2ACAC64500C290A6 /* MBContryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBContryDataModel.swift; sourceTree = "<group>"; };
 		E3D66D6C2ACAD65E00C290A6 /* MBContryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBContryLoader.swift; sourceTree = "<group>"; };
+		E3D66D6E2ACAE25700C290A6 /* MBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E351B87E2ACAF28200592D38 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E351B87F2ACAF29200592D38 /* MBDataManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		E3D66D182AC9A50900C290A6 = {
 			isa = PBXGroup;
 			children = (
@@ -96,15 +108,16 @@
 		E3D66D232AC9A50900C290A6 /* MedBook */ = {
 			isa = PBXGroup;
 			children = (
+				E351B87E2ACAF28200592D38 /* Storage */,
 				E3D66D672ACAC59700C290A6 /* Data */,
 				E3D66D552AC9D63B00C290A6 /* Component */,
 				E3D66D3D2AC9A91700C290A6 /* Util */,
 				E3D66D3C2AC9A91100C290A6 /* Screen */,
 				E3D66D382AC9A8F500C290A6 /* Asset */,
 				E3D66D242AC9A50900C290A6 /* AppDelegate.swift */,
+				E3D66D6E2ACAE25700C290A6 /* MBBaseViewController.swift */,
 				E3D66D262AC9A50900C290A6 /* SceneDelegate.swift */,
-				E3D66D282AC9A50900C290A6 /* ViewController.swift */,
-				E3D66D2A2AC9A50900C290A6 /* Main.storyboard */,
+				E3D66D282AC9A50900C290A6 /* RootViewController.swift */,
 				E3D66D2F2AC9A50A00C290A6 /* LaunchScreen.storyboard */,
 				E3D66D322AC9A50A00C290A6 /* Info.plist */,
 			);
@@ -203,6 +216,7 @@
 			children = (
 				E3D66D5E2ACA974700C290A6 /* MBSignupVC.swift */,
 				E3D66D602ACA97FF00C290A6 /* MBSignupPageTVCell.swift */,
+				E351B8812ACAF59300592D38 /* MBSignupVM.swift */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -289,7 +303,6 @@
 				E3D66D2E2AC9A50A00C290A6 /* Assets.xcassets in Resources */,
 				E3D66D512AC9C4F900C290A6 /* Auth.storyboard in Resources */,
 				E3D66D692ACAC5AB00C290A6 /* countries.json in Resources */,
-				E3D66D2C2AC9A50900C290A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D66D4D2AC9B13200C290A6 /* UIColor+Extension.swift in Sources */,
-				E3D66D292AC9A50900C290A6 /* ViewController.swift in Sources */,
+				E351B8802ACAF29200592D38 /* MBDataManager.swift in Sources */,
+				E3D66D292AC9A50900C290A6 /* RootViewController.swift in Sources */,
+				E351B8822ACAF59300592D38 /* MBSignupVM.swift in Sources */,
 				E3D66D252AC9A50900C290A6 /* AppDelegate.swift in Sources */,
 				E3D66D5C2ACA8E4200C290A6 /* MBValidation.swift in Sources */,
+				E3D66D6F2ACAE25700C290A6 /* MBBaseViewController.swift in Sources */,
 				E3D66D542AC9D1FE00C290A6 /* MBLandingVC.swift in Sources */,
 				E3D66D572AC9D65600C290A6 /* MBTextField.swift in Sources */,
 				E3D66D472AC9B0AF00C290A6 /* UIImage+Extension.swift in Sources */,
@@ -323,14 +339,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3D66D2A2AC9A50900C290A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3D66D2B2AC9A50900C290A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3D66D2F2AC9A50A00C290A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

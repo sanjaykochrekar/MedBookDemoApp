@@ -37,35 +37,41 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZTT-E7-gIs">
-                                <rect key="frame" x="24" y="740.66666666666663" width="345" height="37.333333333333371"/>
+                                <rect key="frame" x="24" y="724.66666666666663" width="345" height="53.333333333333371"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nQ-ep-uQE">
-                                        <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="37.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="53.333333333333336"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Signup"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Signup">
-                                            <backgroundConfiguration key="background" cornerRadius="12" strokeWidth="2" strokeOutset="0.0">
+                                            <backgroundConfiguration key="background" cornerRadius="12" strokeWidth="1" strokeOutset="0.0">
                                                 <color key="backgroundColor" name="buttonBackground"/>
                                                 <color key="strokeColor" name="backgroundDark"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" name="Degular-Regular" family="Degular" pointSize="22"/>
-                                            <directionalEdgeInsets key="contentInsets" top="4" leading="0.0" bottom="4" trailing="0.0"/>
+                                            <directionalEdgeInsets key="contentInsets" top="12" leading="0.0" bottom="12" trailing="0.0"/>
                                             <color key="baseForegroundColor" name="backgroundDark"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signupPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="mBS-Yj-bbC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnQ-pf-7u6">
-                                        <rect key="frame" x="178.66666666666663" y="0.0" width="166.33333333333337" height="37.333333333333336"/>
+                                        <rect key="frame" x="178.66666666666663" y="0.0" width="166.33333333333337" height="53.333333333333336"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Signup"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Signin">
-                                            <backgroundConfiguration key="background" cornerRadius="12" strokeWidth="2">
+                                            <backgroundConfiguration key="background" cornerRadius="12" strokeWidth="1">
                                                 <color key="backgroundColor" name="buttonBackground"/>
                                                 <color key="strokeColor" name="backgroundDark"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" name="Degular-Regular" family="Degular" pointSize="22"/>
-                                            <directionalEdgeInsets key="contentInsets" top="4" leading="0.0" bottom="4" trailing="0.0"/>
+                                            <directionalEdgeInsets key="contentInsets" top="12" leading="0.0" bottom="12" trailing="0.0"/>
                                             <color key="baseForegroundColor" name="backgroundDark"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lY6-Wa-xQm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -116,6 +122,9 @@
                                         <color key="tintColor" name="backgroundDark"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="chevron.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="backPress:" destination="sps-PY-p5D" eventType="touchUpInside" id="dYw-dP-YGE"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXJ-FI-9Ib">
                                         <rect key="frame" x="23.999999999999993" y="98" width="116.33333333333331" height="37.333333333333343"/>
@@ -174,11 +183,11 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system" imagePlacement="trailing" title="Login" imagePadding="4">
-                                            <backgroundConfiguration key="background" strokeWidth="2">
+                                            <backgroundConfiguration key="background" cornerRadius="12" strokeWidth="2">
                                                 <color key="backgroundColor" name="buttonBackground"/>
                                                 <color key="strokeColor" name="backgroundDark"/>
                                             </backgroundConfiguration>
-                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="24" bottom="0.0" trailing="24"/>
+                                            <directionalEdgeInsets key="contentInsets" top="12" leading="24" bottom="12" trailing="24"/>
                                             <color key="baseForegroundColor" name="backgroundDark"/>
                                         </buttonConfiguration>
                                     </button>
@@ -254,10 +263,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shape" translatesAutoresizingMaskIntoConstraints="NO" id="9v2-l9-FMf">
-                                <rect key="frame" x="0.0" y="59" width="393" height="351.33333333333331"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="351.33333333333331"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="9v2-l9-FMf" secondAttribute="height" multiplier="1290:1153" id="W8a-pu-tsm"/>
+                                    <constraint firstAttribute="width" secondItem="9v2-l9-FMf" secondAttribute="height" multiplier="1290:1153" id="2V6-VE-WNU"/>
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iKa-3p-Jjt">
@@ -281,6 +290,9 @@
                                                     <color key="tintColor" name="backgroundDark"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="chevron.left" catalog="system"/>
+                                                    <connections>
+                                                        <action selector="onBackPress" destination="kFQ-Nl-Mmx" eventType="touchUpInside" id="QTZ-Fa-0Sk"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg7-OJ-oQg">
                                                     <rect key="frame" x="23.999999999999993" y="90" width="116.33333333333331" height="37.333333333333343"/>
@@ -388,7 +400,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjb-gu-hiQ">
-                                                    <rect key="frame" x="24" y="437" width="345" height="140"/>
+                                                    <rect key="frame" x="24" y="436.66666666666669" width="345" height="140.00000000000006"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="140" id="Rb8-0k-MY2"/>
                                                     </constraints>
@@ -481,11 +493,10 @@
                         <viewLayoutGuide key="safeArea" id="EIR-28-5Nb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9v2-l9-FMf" firstAttribute="width" secondItem="9v2-l9-FMf" secondAttribute="height" multiplier="1290:1153" id="2V6-VE-WNU"/>
                             <constraint firstItem="EIR-28-5Nb" firstAttribute="trailing" secondItem="iKa-3p-Jjt" secondAttribute="trailing" id="3IT-P3-5ol"/>
-                            <constraint firstItem="9v2-l9-FMf" firstAttribute="top" secondItem="EIR-28-5Nb" secondAttribute="top" id="AvA-UD-6v8"/>
                             <constraint firstItem="EIR-28-5Nb" firstAttribute="bottom" secondItem="iKa-3p-Jjt" secondAttribute="bottom" id="Dil-MW-y0V"/>
                             <constraint firstItem="iKa-3p-Jjt" firstAttribute="top" secondItem="EIR-28-5Nb" secondAttribute="top" id="DjU-Qh-bQv"/>
+                            <constraint firstItem="9v2-l9-FMf" firstAttribute="top" secondItem="LzO-ys-FtG" secondAttribute="top" id="Yxn-K1-e7N"/>
                             <constraint firstItem="9v2-l9-FMf" firstAttribute="trailing" secondItem="EIR-28-5Nb" secondAttribute="trailing" id="iTh-xs-2B2"/>
                             <constraint firstItem="iKa-3p-Jjt" firstAttribute="leading" secondItem="EIR-28-5Nb" secondAttribute="leading" id="wTU-cN-tbU"/>
                             <constraint firstItem="9v2-l9-FMf" firstAttribute="leading" secondItem="EIR-28-5Nb" secondAttribute="leading" id="y5n-i4-MBB"/>
@@ -503,16 +514,16 @@
     </scenes>
     <designables>
         <designable name="Db3-Iv-7mP">
-            <size key="intrinsicContentSize" width="62.333333333333336" height="17"/>
+            <size key="intrinsicContentSize" width="72.666666666666671" height="17"/>
         </designable>
         <designable name="Lqt-hf-Mnh">
-            <size key="intrinsicContentSize" width="34.666666666666664" height="18.666666666666668"/>
+            <size key="intrinsicContentSize" width="44.666666666666664" height="18.666666666666668"/>
         </designable>
         <designable name="NQG-94-MiC">
-            <size key="intrinsicContentSize" width="62.333333333333336" height="17"/>
+            <size key="intrinsicContentSize" width="72.666666666666671" height="17"/>
         </designable>
         <designable name="iUj-81-BkK">
-            <size key="intrinsicContentSize" width="34.666666666666664" height="18.666666666666668"/>
+            <size key="intrinsicContentSize" width="44.666666666666664" height="18.666666666666668"/>
         </designable>
     </designables>
     <resources>
@@ -534,10 +545,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

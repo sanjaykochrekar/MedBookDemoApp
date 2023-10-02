@@ -64,6 +64,21 @@
                   endingLineNumber = "76"
                   offsetFromSymbolStart = "636">
                </Location>
+               <Location
+                  uuid = "87E7F26C-030D-4805-A114-8F9A0C0A9221 - 3da97c32a6dc9d2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "636">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,6 +136,21 @@
                   moduleName = "MedBook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "F9121874-083E-458C-88ED-5897EF7605AA - 3da97c32a6dc9d73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/Screen/Login/MBLoginVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "74"
@@ -190,22 +220,244 @@
                   endingLineNumber = "72"
                   offsetFromSymbolStart = "80">
                </Location>
+               <Location
+                  uuid = "D93D4EB2-89A1-44EA-BA9B-A800646AD243 - 3da97c32a6dc9db1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "80">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EF1DE289-261E-497B-B5EA-B06E94953E8A"
+            uuid = "2921C1AD-1E95-40FE-A8A8-C6E03D80E6B6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MedBook/Screen/Signup/MBSignupPageTVCell.swift"
+            filePath = "MedBook/RootViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "setEmailError()"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2921C1AD-1E95-40FE-A8A8-C6E03D80E6B6 - 940bd1980c7e4fa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.RootViewController.loadView() -&gt; ()"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/RootViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "2921C1AD-1E95-40FE-A8A8-C6E03D80E6B6 - 940bd1980c7e4fa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.RootViewController.loadView() -&gt; ()"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/RootViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2921C1AD-1E95-40FE-A8A8-C6E03D80E6B6 - 940bd1980c7e4fa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.RootViewController.loadView() -&gt; ()"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBookDemoApp/MedBook/RootViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F5F6C09-A909-4568-9B7A-4F2A1D25AB67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "handleScreenSwitch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8837BDDB-3464-4DA8-8155-556A9FEED0C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Landing/MBLandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "521B513B-FD4C-4912-B4F8-6126C7C64F63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Landing/MBLandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loginPress(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A8F12AE-1D83-48A6-84C2-B4A8C9DB7862"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Landing/MBLandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AB15287-892F-4E57-92F7-C68B649F6165"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Landing/MBLandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "signupPress(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "469619E4-A3C5-45EF-8D7F-6885914FF33A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Home/MBHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "handleLogout(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D7ECCDE-6FBF-4832-9244-D1190BD3F39F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/MBBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "logout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BAE581C-FE8A-45EB-92BF-42DCDB30DF99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EF44BE3-F098-4B46-84B1-17F1FD9B8EB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "handleScreenSwitch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "759AF45B-A9E9-4C89-BA71-06EDC2EE87B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "handleScreenSwitch()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

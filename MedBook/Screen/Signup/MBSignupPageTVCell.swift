@@ -11,6 +11,7 @@ import UIKit
 
 protocol MBSignupPageTVCellDelgate {
     func loginWith(email: String, password: String, contry: MBContry)
+    func backPress()
 }
 
 class MBSignupPageTVCell: UITableViewCell {
@@ -33,6 +34,10 @@ class MBSignupPageTVCell: UITableViewCell {
     
     @IBAction func onPressLogin() {
         delegate?.loginWith(email: emailTextField.text ?? "", password: passwordTextField.text ?? "", contry: list[contryPicker.selectedRow(inComponent: 0)])
+    }
+    
+    @IBAction func onBackPress() {
+        delegate?.backPress()
     }
 
     override func awakeFromNib() {

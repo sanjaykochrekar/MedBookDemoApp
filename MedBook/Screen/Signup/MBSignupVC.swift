@@ -9,10 +9,10 @@ import UIKit
 
 
 
-class MBSignupVC: UIViewController {
+class MBSignupVC: MBBaseViewController {
     
     @IBOutlet weak var viewBottomConstraint: NSLayoutConstraint!
-    
+    lazy var vm = MBSignupVM()
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -23,11 +23,7 @@ class MBSignupVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addKeyboardNotificationEvent()
-    }
-
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: animated)
+        vm.delegate = self
     }
     
 }
@@ -72,8 +68,7 @@ extension MBSignupVC {
 
     @objc func keyboardWillHide(notification: NSNotification) {
         if self.viewBottomConstraint.constant != 0 {
-            self.viewBottomConstraint.constant
-            = 0
+            self.viewBottomConstraint.constant = 0
         }
     }
     
@@ -83,8 +78,40 @@ extension MBSignupVC {
 // MARK: - MBSignupPageTVCellDelgate method
 extension MBSignupVC: MBSignupPageTVCellDelgate {
     
+    
+    func backPress() {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
     func loginWith(email: String, password: String, contry: MBContry) {
-        print(contry)
+        
+        if !MBValidation.isValidEmail(email) {
+            let alert = UIAlertController(title: "Invalid Email", message: "Enter a valid email", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        let message = MBValidation.getPasswordValidationMessage(password)
+        if let message {
+            let alert = UIAlertController(title: "Invalid Password", message: message, preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        vm.signUp(email: email, password: password, country: contry.country)
+        
+    }
+    
+}
+
+
+extension MBSignupVC: MBSignupVMDelegate {
+    
+    func handleLogin() {
+        NotificationCenter.default.post(name: .screenSwitch, object: nil, userInfo: nil)
     }
     
 }

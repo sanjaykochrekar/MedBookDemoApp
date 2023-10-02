@@ -24,15 +24,15 @@ class MBLoginVC: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
+    @IBAction func backPress(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addKeyboardNotificationEvent()
     }
 
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: animated)
-    }
 }
 
 
