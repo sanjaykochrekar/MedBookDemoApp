@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C73B0FE6-31A1-4CA8-86FF-02BE29233E61"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87E7F26C-030D-4805-A114-8F9A0C0A9221"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Login/MBLoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87E7F26C-030D-4805-A114-8F9A0C0A9221 - 375835e47e26d9c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "87E7F26C-030D-4805-A114-8F9A0C0A9221 - 375835e47e26d9c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "87E7F26C-030D-4805-A114-8F9A0C0A9221 - 375835e47e26d91e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9121874-083E-458C-88ED-5897EF7605AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Login/MBLoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9121874-083E-458C-88ED-5897EF7605AA - 375835e47e26d801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "F9121874-083E-458C-88ED-5897EF7605AA - 375835e47e26d801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "F9121874-083E-458C-88ED-5897EF7605AA - 375835e47e26d95c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D93D4EB2-89A1-44EA-BA9B-A800646AD243"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Login/MBLoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D93D4EB2-89A1-44EA-BA9B-A800646AD243 - 375835e47e26d826"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "D93D4EB2-89A1-44EA-BA9B-A800646AD243 - 375835e47e26d826"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D93D4EB2-89A1-44EA-BA9B-A800646AD243 - 375835e47e26d9a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedBook.MBLoginVC.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "MedBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Project/iOS/MedBook/MedBook/Screen/Login/MBLoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF1DE289-261E-497B-B5EA-B06E94953E8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedBook/Screen/Signup/MBSignupPageTVCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "setEmailError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
