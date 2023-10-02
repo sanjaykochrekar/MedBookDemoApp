@@ -13,14 +13,12 @@ class MBDataManager {
     static let shared = MBDataManager()
     private var email: String?
     private var password: String?
-    private var contry: String?
     
     private init() {}
     
-    func setUserData(email: String, password: String, country: String) {
+    func setUserData(email: String, password: String) {
         UserDefaults.standard.set(email, forKey: "EMAIL")
         UserDefaults.standard.set(password, forKey: "PASSWORD")
-        UserDefaults.standard.set(country, forKey: "COUNTRY")
     }
     
     
@@ -31,11 +29,6 @@ class MBDataManager {
     
     func getPassword() -> String? {
         UserDefaults.standard.value(forKey: "PASSWORD") as? String
-    }
-    
-    
-    func getCountry() -> String? {
-        UserDefaults.standard.value(forKey: "COUNTRY") as? String
     }
     
     
@@ -50,6 +43,5 @@ class MBDataManager {
     func clearUserData() {
         UserDefaults.standard.removeObject(forKey: "EMAIL")
         UserDefaults.standard.removeObject(forKey: "PASSWORD")
-        UserDefaults.standard.removeObject(forKey: "COUNTRY")
     }
 }

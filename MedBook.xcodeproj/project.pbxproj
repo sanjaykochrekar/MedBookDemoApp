@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E351B8802ACAF29200592D38 /* MBDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351B87F2ACAF29200592D38 /* MBDataManager.swift */; };
 		E351B8822ACAF59300592D38 /* MBSignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351B8812ACAF59300592D38 /* MBSignupVM.swift */; };
+		E351B8842ACB095100592D38 /* MBLoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351B8832ACB095100592D38 /* MBLoginVM.swift */; };
 		E3D66D252AC9A50900C290A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D242AC9A50900C290A6 /* AppDelegate.swift */; };
 		E3D66D272AC9A50900C290A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D262AC9A50900C290A6 /* SceneDelegate.swift */; };
 		E3D66D292AC9A50900C290A6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D66D282AC9A50900C290A6 /* RootViewController.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		E351B87F2ACAF29200592D38 /* MBDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDataManager.swift; sourceTree = "<group>"; };
 		E351B8812ACAF59300592D38 /* MBSignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSignupVM.swift; sourceTree = "<group>"; };
+		E351B8832ACB095100592D38 /* MBLoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLoginVM.swift; sourceTree = "<group>"; };
 		E3D66D212AC9A50900C290A6 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D66D242AC9A50900C290A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3D66D262AC9A50900C290A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				E3D66D592ACA774000C290A6 /* MBLoginVC.swift */,
+				E351B8832ACB095100592D38 /* MBLoginVM.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				E3D66D252AC9A50900C290A6 /* AppDelegate.swift in Sources */,
 				E3D66D5C2ACA8E4200C290A6 /* MBValidation.swift in Sources */,
 				E3D66D6F2ACAE25700C290A6 /* MBBaseViewController.swift in Sources */,
+				E351B8842ACB095100592D38 /* MBLoginVM.swift in Sources */,
 				E3D66D542AC9D1FE00C290A6 /* MBLandingVC.swift in Sources */,
 				E3D66D572AC9D65600C290A6 /* MBTextField.swift in Sources */,
 				E3D66D472AC9B0AF00C290A6 /* UIImage+Extension.swift in Sources */,

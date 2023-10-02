@@ -13,7 +13,7 @@ class MBSignupVM {
     var delegate: MBSignupVMDelegate?
     
     func signUp(email: String, password: String, country: String) {
-        MBDataManager.shared.setUserData(email: email, password: password, country: country)
+        MBDataManager.shared.setUserData(email: email, password: password)
         delegate?.handleLogin()
     }
     

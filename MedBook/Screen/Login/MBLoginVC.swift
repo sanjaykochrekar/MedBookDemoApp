@@ -9,7 +9,9 @@ import UIKit
 
 
 
-class MBLoginVC: UIViewController {
+class MBLoginVC: MBBaseViewController {
+    
+    lazy var vm = MBLoginVM()
     
     @IBOutlet weak var viewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var passwordTextField: MBTextField!
@@ -28,9 +30,34 @@ class MBLoginVC: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         addKeyboardNotificationEvent()
+        vm.delegate = self
+    }
+    
+    
+    @IBAction func handleLoginPress(_ sender: Any) {
+        let email = emailTextField.text ?? ""
+        let password = passwordTextField.text ?? ""
+        
+        if !MBValidation.isValidEmail(email) {
+            let alert = UIAlertController(title: "Invalid Email", message: "Enter a valid email", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        let message = MBValidation.getPasswordValidationMessage(password)
+        if let message {
+            let alert = UIAlertController(title: "Invalid Password", message: message, preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        vm.signUp(email: email, password: password)
     }
 
 }
@@ -92,4 +119,12 @@ extension MBLoginVC: UITextFieldDelegate {
     private func setPasswordError() {
         
     }
+}
+
+extension MBLoginVC: MBLoginVMDelegate {
+    
+    func handleLogin() {
+        NotificationCenter.default.post(name: .screenSwitch, object: nil, userInfo: nil)
+    }
+    
 }

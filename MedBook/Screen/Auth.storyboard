@@ -190,6 +190,9 @@
                                             <directionalEdgeInsets key="contentInsets" top="12" leading="24" bottom="12" trailing="24"/>
                                             <color key="baseForegroundColor" name="backgroundDark"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="handleLoginPress:" destination="sps-PY-p5D" eventType="touchUpInside" id="PQy-Gn-l4l"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwh-zl-soN">
                                         <rect key="frame" x="24" y="244.66666666666669" width="345" height="0.0"/>
