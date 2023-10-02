@@ -10,14 +10,18 @@ import Foundation
 
 struct MBValidation {
     
-    // TODO: - need add doc comment
+    ///for validating email address
+    /// - Parameters email: email address
+    /// - Returns: true if its valid email
     static func isValidEmail(_ email: String) -> Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailPred.evaluate(with: email)
     }
     
-    // TODO: - need add doc comment
+    ///for validating password
+    /// - Parameters: password
+    /// - Returns: true if its valid password
     static func isValidPassword(_ password: String) -> Bool {
         if password.count < 8 {
             return false
@@ -36,7 +40,9 @@ struct MBValidation {
     }
     
     
-    // TODO: -  need to add doc comment
+    ///for generating password message
+    /// - Parameters: password
+    /// - Returns: optional message
     static func getPasswordValidationMessage(_ password: String) -> String? {
         
         if password.count < 8 {
@@ -58,12 +64,17 @@ struct MBValidation {
         return nil
     }
     
-    // TODO: - need add doc comment
+    
+    ///for checking special character in string
+    /// - Parameters: string
+    /// - Returns: true if string contain special character
     static func containSpecialChar(_ string: String) -> Bool {
         string.range(of: ".*[^A-Za-z0-9].*", options: .regularExpression) != nil
     }
     
-    // TODO: - need add doc comment
+    ///for checking upper case character in string
+    /// - Parameters: string
+    /// - Returns: true if string contain upper case character
     static func containUpperCase(_ string: String) -> Bool {
         (string.range(of: ".*[A-Z]+.*", options: .regularExpression) != nil)
     }

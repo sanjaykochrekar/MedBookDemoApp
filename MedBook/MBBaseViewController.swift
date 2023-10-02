@@ -10,6 +10,7 @@ import UIKit
 
 class MBBaseViewController: UIViewController {
     
+    /// Function handles logout action inside app
     func logout() {
         MBDataManager.shared.clearUserData()
         NotificationCenter.default.post(name: .screenSwitch, object: nil, userInfo: nil)
